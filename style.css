@@ -1,0 +1,149 @@
+body{
+  background-color: #f4f4f4;
+}
+section{
+  display:flex;
+}
+
+nav{
+  display:flex;
+  margin:10px;
+  padding:10px;
+  justify-content:space-evenly;
+  font-family:Verdana;
+  color: #088e6a;
+  border-bottom:1px solid #088e6a;
+}
+
+a:link{
+text-decoration:none;
+}
+
+a:hover{
+color: #088e6a;
+text-decoration:underline;
+}
+
+div.Left{
+  flex:1;
+  text-align:center;
+  border-right:1px solid #088e6a;
+}
+
+div.Right{
+  flex:2;
+}
+img{
+  border-radius:50%;
+  height:200px;
+  width:200px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+p#Name{
+  font-family:"Trebuchet MS";
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+h1{
+  font-family:"Trebuchet MS";
+  font-size: 30px;
+  padding:30px;
+}
+
+p{
+  font-family:"Trebuchet MS";
+}
+
+p#topText{
+  padding:30px;
+}
+
+tr#Spacing{
+  padding:30px;
+}
+
+table.Tabled{
+  margin: 10px;
+}
+
+table.Spaced{
+  margin:15px;
+  padding:20px;
+}
+
+div.Left{
+  justify-content:center;
+}
+
+td{
+  font-family:Helvetica;
+  padding:10px;
+}
+
+td#Job{
+  font-size:20px;
+}
+
+td#Values{
+  text-align:right;
+  margin-left:30px;
+}
+
+p#Accompany{
+  padding:30px;
+}
+
+p#Copyright{
+  text-align:center;
+  font-family:Helvetica;
+  font-size:10px;
+}
+
+label{
+  font-family:"Tahoma";
+  font-size:22px;
+  padding:50px;
+}
+
+p#skillsBold{
+  text-decoration-style:bold;
+}
+
+span#Creds{
+margin:100px;
+}
+
+progress{
+margin-left:65px;
+padding:10px;
+width:300px;
+height:5px;
+display:block;
+overflow:hidden;
+}
+
+li{
+font-family:"Trebuchet MS"
+}
+
+@media only screen and (max-width:600px) {
+nav{
+  font-size:12px;
+}
+body{
+  font-size: 15px; 
+}
+
+section{
+  flex-direction:column;
+}
+}
+ 
+@media only screen and (min-width:992px) {
+body{
+  font-size:20px;
+}
+}
